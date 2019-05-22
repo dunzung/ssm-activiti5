@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+       ">
+
+
+    <!--
+     <import resource="spring-configuration/propertyFileConfigurer.xml"/>
+        指定使用注解方式配置,配置自动扫描的包名,
+        base-package指定自己应用中控制器所在的包目录
+        <context:component-scan/> 扫描指定的包中的类上的注解，常用的注解有：
+        @Controller 声明Action组件
+        @Service 声明Service组件
+        @Service("myMovieLister")
+        @Repository 声明Dao组件
+        @Component 泛指组件, 当不好归类时.
+        @RequestMapping("/menu") 请求映射
+        @Resource用于注入，( j2ee提供的 ) 默认按名称装配，
+        @Resource(name="beanName")
+        @Autowired用于注入，(srping提供的) 默认按类型装配
+        @Transactional(rollbackFor={Exception.class}) 事务管理
+        @ResponseBody @Scope("prototype")设定bean的作用域
+          <context:component-scan base-package="com.gao.ws" />
+
+    <context:annotation-config/>
+
+    <mvc:annotation-driven/>
+
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/> 
+    -->
+
+</beans>
